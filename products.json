@@ -1,0 +1,367 @@
+{
+  "products": [
+    {
+      "position": 1,
+      "Barkod": "8684387700498",
+      "Model ID": "1123677",
+      "Ürün Adı": "Buff Galaxy S24 Classic Darbe Emici Ekran Koruyucu",
+      "Uyumlu Model 1 ": "Samsung Galaxy S 24"
+    },
+    {
+      "position": 2,
+      "Barkod": "8684387700504",
+      "Model ID": "1123678",
+      "Ürün Adı": "Buff Galaxy S24 Plus Classic Darbe Emici Ekran Koruyucu",
+      "Uyumlu Model 1 ": "Samsung Galaxy S 24 Plus"
+    },
+    {
+      "position": 3,
+      "Barkod": "8684387700511",
+      "Model ID": "1123679",
+      "Ürün Adı": "Buff Galaxy S24 Ultra Classic Darbe Emici Ekran Koruyucu",
+      "Uyumlu Model 1 ": "Samsung Galaxy S 24 Ultra"
+    },
+    {
+      "position": 4,
+      "Barkod": "8683548216960",
+      "Model ID": "1113654",
+      "Ürün Adı": "Buff iPhone 15 5D Matte Ekran Koruyucu",
+      "Uyumlu Model 1 ": "iPhone 15"
+    },
+    {
+      "position": 5,
+      "Barkod": "8683548216953",
+      "Model ID": "1113657",
+      "Ürün Adı": "Buff iPhone 15 Plus 5D Matte Ekran Koruyucu",
+      "Uyumlu Model 1 ": "iPhone 15 Plus"
+    },
+    {
+      "position": 6,
+      "Barkod": "8683548216946",
+      "Model ID": "1113660",
+      "Ürün Adı": "Buff iPhone 15 Pro 5D Matte Ekran Koruyucu",
+      "Uyumlu Model 1 ": "iPhone 15 Pro"
+    },
+    {
+      "position": 7,
+      "Barkod": "8683548216922",
+      "Model ID": "1113655",
+      "Ürün Adı": "Buff iPhone 15 5D Privacy Ekran Koruyucu",
+      "Uyumlu Model 1 ": "iPhone 15"
+    },
+    {
+      "position": 8,
+      "Barkod": "8683548216908",
+      "Model ID": "1113661",
+      "Ürün Adı": "Buff iPhone 15 Pro 5D Privacy Ekran Koruyucu",
+      "Uyumlu Model 1 ": "iPhone 15 Pro"
+    },
+    {
+      "position": 9,
+      "Barkod": "8683548216892",
+      "Model ID": "1113664",
+      "Ürün Adı": "Buff iPhone 15 Pro Max 5D Privacy Ekran Koruyucu",
+      "Uyumlu Model 1 ": "iPhone 15 Pro Max"
+    },
+    {
+      "position": 10,
+      "Barkod": "8683548216885",
+      "Model ID": "1111899",
+      "Ürün Adı": "Buff iPhone 15 5D Glass Ekran Koruyucu",
+      "Uyumlu Model 1 ": "iPhone 15"
+    },
+    {
+      "position": 11,
+      "Barkod": "8683548216878",
+      "Model ID": "1113656",
+      "Ürün Adı": "Buff iPhone 15 Plus 5D Glass Ekran Koruyucu",
+      "Uyumlu Model 1 ": "iPhone 15 Plus"
+    },
+    {
+      "position": 12,
+      "Barkod": "8683548216861",
+      "Model ID": "1113659",
+      "Ürün Adı": "Buff iPhone 15 Pro 5D Glass Ekran Koruyucu",
+      "Uyumlu Model 1 ": "iPhone 15 Pro"
+    },
+    {
+      "position": 13,
+      "Barkod": "8683548216854",
+      "Model ID": "1113662",
+      "Ürün Adı": "Buff iPhone 15 Pro Max 5D Glass Ekran Koruyucu",
+      "Uyumlu Model 1 ": "iPhone 15 Pro Max"
+    },
+    {
+      "position": 14,
+      "Barkod": "8683548212306",
+      "Model ID": "1107513",
+      "Ürün Adı": "Buff iPhone 14 Pro Max 5D Matte Ekran Koruyucu",
+      "Uyumlu Model 1 ": "iPhone 14 Pro Max"
+    },
+    {
+      "position": 15,
+      "Barkod": "8683548212290",
+      "Model ID": "1107502",
+      "Ürün Adı": "Buff iPhone 14 Pro 5D Matte Ekran Koruyucu",
+      "Uyumlu Model 1 ": "iPhone 14 Pro"
+    },
+    {
+      "position": 16,
+      "Barkod": "8683548212283",
+      "Model ID": "1107499",
+      "Ürün Adı": "Buff iPhone 14 Plus / 13 Pro Max 5D Matte Ekran Koruyucu",
+      "Uyumlu Model 1 ": "iPhone 14 Plus",
+      "Uyumlu Model 2": "iPhone 13 Pro Max"
+    },
+    {
+      "position": 17,
+      "Barkod": "8683548212276",
+      "Model ID": "1107516",
+      "Ürün Adı": "Buff iPhone 14/13 Pro/13 5D Matte Ekran Koruyucu",
+      "Uyumlu Model 1 ": "iPhone 14",
+      "Uyumlu Model 2": "iPhone 13 Pro",
+      "Uyumlu Model 3": "iPhone 13"
+    },
+    {
+      "position": 18,
+      "Barkod": "8683548212269",
+      "Model ID": "1107514",
+      "Ürün Adı": "Buff iPhone 14 Pro Max 5D Privacy Ekran Koruyucu",
+      "Uyumlu Model 1 ": "iPhone 14 Pro Max"
+    },
+    {
+      "position": 19,
+      "Barkod": "8683548212252",
+      "Model ID": "1107503",
+      "Ürün Adı": "Buff iPhone 14 Pro 5D Privacy Ekran Koruyucu",
+      "Uyumlu Model 1 ": "iPhone 14 Pro"
+    },
+    {
+      "position": 20,
+      "Barkod": "8683548212245",
+      "Model ID": "1107500",
+      "Ürün Adı": "Buff iPhone 14 Plus/13 Pro Max 5D Privacy Ekran Koruyucu",
+      "Uyumlu Model 1 ": "iPhone 14 Plus",
+      "Uyumlu Model 2": "iPhone 13 Pro Max"
+    },
+    {
+      "position": 21,
+      "Barkod": "8683548212238",
+      "Model ID": "1107515",
+      "Ürün Adı": "Buff iPhone 14/13 Pro/13 5D Privacy Ekran Koruyucu",
+      "Uyumlu Model 1 ": "iPhone 14",
+      "Uyumlu Model 2": "iPhone 13 Pro",
+      "Uyumlu Model 3": "iPhone 13"
+    },
+    {
+      "position": 22,
+      "Barkod": "8683548211712",
+      "Model ID": "1106412",
+      "Ürün Adı": "Buff iPhone 14/13/13 Pro 5D Glass Ekran Koruyucu",
+      "Uyumlu Model 1 ": "iPhone 14",
+      "Uyumlu Model 2": "iPhone 13 Pro",
+      "Uyumlu Model 3": "iPhone 13"
+    },
+    {
+      "position": 23,
+      "Barkod": "8683548211705",
+      "Model ID": "1107497",
+      "Ürün Adı": "Buff iPhone 14 Plus / 13 Pro Max 5D Glass Ekran Koruyucu",
+      "Uyumlu Model 1 ": "iPhone 14 Plus",
+      "Uyumlu Model 2": "iPhone 13 Pro Max"
+    },
+    {
+      "position": 24,
+      "Barkod": "8683548211699",
+      "Model ID": "1079322",
+      "Ürün Adı": "Buff iPhone 14 Pro 5D Glass Ekran Koruyucu",
+      "Uyumlu Model 1 ": "iPhone 14 Pro"
+    },
+    {
+      "position": 25,
+      "Barkod": "8683548211682",
+      "Model ID": "1079321",
+      "Ürün Adı": "Buff iPhone 14 Pro Max 5D Glass Ekran Koruyucu",
+      "Uyumlu Model 1 ": "iPhone 14 Pro Max"
+    },
+    {
+      "position": 26,
+      "Barkod": "8682750457284",
+      "Model ID": "1107558",
+      "Ürün Adı": "Buff iPhone 11 Pro Max 5D Glass Anti Hacker Ekran Koruyucu",
+      "Uyumlu Model 1 ": "iPhone 11 Pro Max"
+    },
+    {
+      "position": 27,
+      "Barkod": "8682750457291",
+      "Model ID": "1107557",
+      "Ürün Adı": "Buff iPhone 11 Pro 5D Glass Anti Hacker Ekran Koruyucu",
+      "Uyumlu Model 1 ": "iPhone 11 Pro"
+    },
+    {
+      "position": 28,
+      "Barkod": "8682750457307",
+      "Model ID": "1107556",
+      "Ürün Adı": "Buff iPhone 11 5D Glass Anti Hacker Ekran Koruyucu",
+      "Uyumlu Model 1 ": "iPhone 11"
+    },
+    {
+      "position": 29,
+      "Barkod": "8682750457277",
+      "Model ID": "1107486",
+      "Ürün Adı": "Buff iPhone 12/12 Pro 5D Glass Anti Hacker Ekran Koruyucu",
+      "Uyumlu Model 1 ": "iPhone 12",
+      "Uyumlu Model 2": "iPhone 12 Pro"
+    },
+    {
+      "position": 30,
+      "Barkod": "8682750457260",
+      "Model ID": "1107483",
+      "Ürün Adı": "Buff iPhone 12 Pro Max 5D Glass Anti Hacker Ekran Koruyucu",
+      "Uyumlu Model 1 ": "iPhone 12 Pro Max"
+    },
+    {
+      "position": 31,
+      "Barkod": "8682750457253",
+      "Model ID": "1107487",
+      "Ürün Adı": "Buff iPhone 13 Mini 5D Glass Anti Hacker Ekran Koruyucu",
+      "Uyumlu Model 1 ": "iPhone 13 Mini"
+    },
+    {
+      "position": 32,
+      "Barkod": "8682750457246",
+      "Model ID": "1107493",
+      "Ürün Adı": "Buff iPhone 13 Pro Max 5D Glass Anti Hacker Ekran Koruyucu",
+      "Uyumlu Model 1 ": "iPhone 13 Pro Max"
+    },
+    {
+      "position": 33,
+      "Barkod": "8682750457239",
+      "Model ID": "1107494",
+      "Ürün Adı": "Buff iPhone 13/13 Pro 5D Glass Anti Hacker Ekran Koruyucu",
+      "Uyumlu Model 1 ": "iPhone 13",
+      "Uyumlu Model 2": "iPhone 13 Pro"
+    },
+    {
+      "position": 34,
+      "Barkod": "8682750457314",
+      "Model ID": "1107489",
+      "Ürün Adı": "Buff iPhone 13 Mini 5D Privacy Ekran Koruyucu",
+      "Uyumlu Model 1 ": "iPhone 13 Mini"
+    },
+    {
+      "position": 35,
+      "Barkod": "8682750457215",
+      "Model ID": "1107488",
+      "Ürün Adı": "Buff iPhone 13 Mini 5D Glass Ekran Koruyucu",
+      "Uyumlu Model 1 ": "iPhone 13 Mini"
+    },
+    {
+      "position": 36,
+      "Barkod": "6959633411469",
+      "Model ID": "1107481",
+      "Ürün Adı": "Buff iPhone 12 Mini 5D Privacy Ekran Koruyucu",
+      "Uyumlu Model 1 ": "iPhone 12 Mini"
+    },
+    {
+      "position": 37,
+      "Barkod": "6959633411490",
+      "Model ID": "1107485",
+      "Ürün Adı": "Buff iPhone 12 Pro Max 5D Privacy Ekran Koruyucu",
+      "Uyumlu Model 1 ": "iPhone 12 Pro Max"
+    },
+    {
+      "position": 38,
+      "Barkod": "6959633411483",
+      "Model ID": "1107482",
+      "Ürün Adı": "Buff iPhone 12 Pro 5D Privacy Ekran Koruyucu",
+      "Uyumlu Model 1 ": "iPhone 12 Pro"
+    },
+    {
+      "position": 39,
+      "Barkod": "6959633411476",
+      "Model ID": "1107481",
+      "Ürün Adı": "Buff iPhone 12 5D Privacy Ekran Koruyucu",
+      "Uyumlu Model 1 ": "iPhone 12"
+    },
+    {
+      "position": 40,
+      "Barkod": "6959633411445",
+      "Model ID": "1107480",
+      "Ürün Adı": "Buff iPhone 12 Mini 5D Glass Ekran Koruyucu",
+      "Uyumlu Model 1 ": "iPhone 12 Mini"
+    },
+    {
+      "position": 41,
+      "Barkod": "6959633411452",
+      "Model ID": "1107484",
+      "Ürün Adı": "Buff iPhone 12 Pro Max 5D Glass Ekran Koruyucu",
+      "Uyumlu Model 1 ": "iPhone 12 Pro Max"
+    },
+    {
+      "position": 42,
+      "Barkod": "6959633411438",
+      "Model ID": "1031284",
+      "Ürün Adı": "Buff iPhone 12 / 12 Pro 5D Glass Ekran Koruyucu",
+      "Uyumlu Model 1 ": "iPhone 12",
+      "Uyumlu Model 2": "iPhone 12 Pro"
+    },
+    {
+      "position": 43,
+      "Barkod": "6959633411308",
+      "Model ID": "1107559",
+      "Ürün Adı": "Buff iPhone 11 Pro Max/Xs Max 5D Privacy Ekran Koruyucu",
+      "Uyumlu Model 1 ": "iPhone 11 Pro Max",
+      "Uyumlu Model 2": "iPhone Xs Max"
+    },
+    {
+      "position": 44,
+      "Barkod": "6959633411292",
+      "Model ID": "1072171",
+      "Ürün Adı": "Buff iPhone 11 Pro/Xs/X 5D Privacy Ekran Koruyucu",
+      "Uyumlu Model 1 ": "iPhone 11 Pro",
+      "Uyumlu Model 2": "iPhone Xs",
+      "Uyumlu Model 3": "iPhone X"
+    },
+    {
+      "position": 45,
+      "Barkod": "6959633411315",
+      "Model ID": "1107559",
+      "Ürün Adı": "Buff iPhone 11/XR 5D Privacy Ekran Koruyucu",
+      "Uyumlu Model 1 ": "iPhone 11",
+      "Uyumlu Model 2": "iPhone XR"
+    },
+    {
+      "position": 46,
+      "Barkod": "6959633503478",
+      "Model ID": "1031299",
+      "Ürün Adı": "Buff Blogy iPhone 11 / XR Flexi 5D Ekran Koruyucu",
+      "Uyumlu Model 1 ": "iPhone 11",
+      "Uyumlu Model 2": "iPhone XR"
+    },
+    {
+      "position": 47,
+      "Barkod": "8809349078860",
+      "Model ID": "1037950",
+      "Ürün Adı": "Buff iPad Pro 11 / Air 10.9 Ekran Koruyucu",
+      "Uyumlu Model 1 ": "iPad Pro 11",
+      "Uyumlu Model 2": "iPad Air 10.9"
+    },
+    {
+      "position": 48,
+      "Barkod": "6959633410554",
+      "Model ID": "1046061",
+      "Ürün Adı": "Buff iPhone 11 / XR Privacy Ekran Koruyucu",
+      "Uyumlu Model 1 ": "iPhone 11",
+      "Uyumlu Model 2": "iPhone XR"
+    },
+    {
+      "position": 49,
+      "Barkod": "6959633410516",
+      "Model ID": "1027720",
+      "Ürün Adı": "Buff iPhone 11 / XR 5D Glass Ekran Koruyucu",
+      "Uyumlu Model 1 ": "iPhone 11",
+      "Uyumlu Model 2": "iPhone XR"
+    }
+  ]
+}
