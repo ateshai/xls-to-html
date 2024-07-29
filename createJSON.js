@@ -2,47 +2,37 @@ const ExcelJS = require('exceljs');
 var fs = require("fs");
 
 const workbook = new ExcelJS.Workbook();
-workbook.xlsx.readFile("./files/ZoreAksesuarID.xlsx")
+workbook.xlsx.readFile("./files/aksesuar_lp_data.xlsx")
   .then(() => {
     let theData = [];
     let position = 0;
     let products = [];
 
     workbook.eachSheet((ws, sheetId) => {
-      if(sheetId === 1) return;
-      // let headers = {};
+      // if(sheetId === 1) return;
 
-      // console.log("sheetid", sheetId);
-      
-      // for(let i=1; i <= ws.actualRowCount; i++) {
-      //   headers[i] = ws.getRow(1).getCell(i).value;
-      //   console.log("header", headers[i]);
-      // }
+      const header = getColValues(ws, 1);
+      // console.log("header", header);
 
-      for(let x=2; x <= ws.actualRowCount; x++) {
-        const barcode = ws.getRow(x).getCell(1).value;
-        if(barcode === null) continue;
-        // console.log("barcode", barcode.toString())
-        if(products.includes(barcode.toString())) continue;
-
+      for(let x=1; x <= ws.actualRowCount; x++) {
         let theRow = {};
         
         for(let y=1; y <= ws.actualColumnCount; y++) {
+          const headerIndex = y - 1;
           let value = ws.getRow(x).getCell(y).value;
-          if(value === null) continue;
+          if(value === null || typeof value !== "string" || header[headerIndex] === null || header[headerIndex] === undefined) continue;
+          
+          // console.log("header", header[headerIndex]);
 
           value = value.toString();
-          theRow[getHeader(y)] = value?.trim();
+          theRow[header[headerIndex]] = value?.trim();
         }
 
         // console.log("tr", theRow);
-        
-        if(theRow["data"]) {
-          position++;
-          theRow.position = position;
-          products.push(barcode.toString());
-          theData.push(theRow);
-        }
+ 
+        position++;
+        theRow.position = position;
+        theData.push(theRow);
       }
 
     })
@@ -51,11 +41,20 @@ workbook.xlsx.readFile("./files/ZoreAksesuarID.xlsx")
     fs.writeFile("products.json", jsonData, "utf-8", () => console.log("JSON created!"))
     // console.log(jsonData);
 
-    createHTML(theData);
+    // createHTML(theData);
     
   }).catch(e => console.log(e));
 
 // console.log(workbook)
+
+function getColValues(ws, rowIndex) {
+  console.log("ws", ws, rowIndex);
+  const colValues = [];
+  for(let y=1; y <= ws.actualColumnCount; y++) {
+    colValues.push(ws.getRow(rowIndex).getCell(y).value);
+  }
+  return colValues;
+}
 
 function getHeader(col) {
   // console.log("col", col);

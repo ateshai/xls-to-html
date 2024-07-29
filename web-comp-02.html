@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Component Örneği</title>
+</head>
+<body>
+    <template id="my-component-template">
+        <style>
+            .btn-container {
+                margin-bottom: 10px;
+            }
+            .p-container ::slotted(p) {
+                color: blue;
+            }
+            .p-container ::slotted(.lightmode--active) {
+                background-color: yellow;
+                color: black;
+            }
+        </style>
+        <div class="btn-container">
+            <slot name="button"></slot>
+        </div>
+        <div class="p-container">
+            <slot name="paragraph"></slot>
+        </div>
+    </template>
+
+    <my-component>
+        <button slot="button">Değiştir</button>
+        <p slot="paragraph">Bu, değiştirilecek metindir.</p>
+    </my-component>
+
+    <script>
+        class MyComponent extends HTMLElement {
+            constructor() {
+                super();
+                this.attachShadow({ mode: 'open' });
+                const template = document.getElementById('my-component-template').content.cloneNode(true);
+                this.shadowRoot.appendChild(template);
+                const button = this.querySelector('button[slot="button"]');
+                const paragraph = this.querySelector('p[slot="paragraph"]');
+                button.addEventListener('click', () => {
+                    paragraph.classList.toggle('lightmode--active');
+                });
+            }
+        }
+        customElements.define('my-component', MyComponent);
+    </script>
+</body>
+</html>

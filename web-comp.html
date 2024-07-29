@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Component Örneği</title>
+</head>
+<body>
+    <!-- Template tanımı -->
+    <template id="my-component-template">
+        <style>
+            /* Stil tanımları buraya eklenebilir */
+            button {
+                margin-bottom: 10px;
+            }
+            p {
+                color: blue;
+            }
+            .lightmode--active {
+                background-color: yellow;
+                color: black;
+            }
+        </style>
+        <button>Değiştir</button>
+        <p>Bu, değiştirilecek metindir.</p>
+    </template>
+
+    <!-- Web Component'ı kullanmak için -->
+    <my-component></my-component>
+
+    <script>
+        class MyComponent extends HTMLElement {
+            constructor() {
+                super();
+                // Shadow DOM ekliyoruz
+                this.attachShadow({ mode: 'open' });
+
+                // Template içeriğini klonluyoruz ve shadow DOM'a ekliyoruz
+                const template = document.getElementById('my-component-template').content.cloneNode(true);
+                this.shadowRoot.appendChild(template);
+
+                // Butonu ve paragrafı shadow DOM içinde seçiyoruz
+                const button = this.shadowRoot.querySelector('button');
+                const paragraph = this.shadowRoot.querySelector('p');
+
+                // Butona tıklama olayı ekliyoruz
+                button.addEventListener('click', () => {
+                    paragraph.classList.toggle('lightmode--active');
+                });
+            }
+        }
+
+        // Web Component'i tanımlıyoruz
+        customElements.define('my-component', MyComponent);
+    </script>
+</body>
+</html>
