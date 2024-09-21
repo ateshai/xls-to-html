@@ -1,8 +1,46 @@
 const ExcelJS = require('exceljs');
 var fs = require("fs");
 
+const biKapakBrands = [
+  // "Magpro",
+  // "Magsense",
+  // "Magmist",
+  // "Elit Crystal",
+  // "Magsafe Air",
+  // "Elit Air",
+  // "Eco Silikon",
+  // "Eco Sense",
+  // "Magsafe Air",
+  // "Magcarbon",
+  // "Magslim",
+  // "Magfit",
+  // "Magfit Yaldizli",
+  // "Elit Frozen",
+  // "Elit Enigma",
+  // "Elit Frozen",
+  // "Elit Enigma",
+  // "2In1"
+  "Eco Sense",
+  "Eco Silikon",
+  "Magsafe Air",
+  "Magslim",
+  "Magsafe Air",
+  "Elit Air",
+  "Elit Enigma",
+  "Elit Air",
+  "Elit Crystal",
+  "Elit Frozen",
+  "2In1",
+  "Magfit Yaldizli",
+  "Magfit",
+  "Magmist",
+  "Magcarbon",
+  "Magsense",
+  "Magpro"
+]
+
 const workbook = new ExcelJS.Workbook();
-workbook.xlsx.readFile("./files/aksesuar_lp_data.xlsx")
+workbook.xlsx.readFile("./files/aksesuar_lp_datayenison.xlsx")
   .then(() => {
     let theData = [];
     let position = 0;
@@ -14,17 +52,21 @@ workbook.xlsx.readFile("./files/aksesuar_lp_data.xlsx")
       const header = getColValues(ws, 1);
       // console.log("header", header);
 
-      for(let x=1; x <= ws.actualRowCount; x++) {
+      for(let x=2; x <= ws.actualRowCount; x++) {
         let theRow = {};
         
         for(let y=1; y <= ws.actualColumnCount; y++) {
           const headerIndex = y - 1;
           let value = ws.getRow(x).getCell(y).value;
-          if(value === null || typeof value !== "string" || header[headerIndex] === null || header[headerIndex] === undefined) continue;
           
-          // console.log("header", header[headerIndex]);
+          if(value === null || header[headerIndex] === null) continue;
+          
 
-          value = value.toString();
+          // if(header[headerIndex] === "brand") {
+          //   console.log("val:", value);
+          // }
+          value = typeof value !== "string" ? value.result.toString() : value.toString();
+          if(biKapakBrands.includes(value)) { value = "Bikapak" }
           theRow[header[headerIndex]] = value?.trim();
         }
 
@@ -48,7 +90,6 @@ workbook.xlsx.readFile("./files/aksesuar_lp_data.xlsx")
 // console.log(workbook)
 
 function getColValues(ws, rowIndex) {
-  console.log("ws", ws, rowIndex);
   const colValues = [];
   for(let y=1; y <= ws.actualColumnCount; y++) {
     colValues.push(ws.getRow(rowIndex).getCell(y).value);
